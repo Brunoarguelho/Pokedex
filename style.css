@@ -20,6 +20,23 @@ main {
   position: relative;
 }
 
+.pokedex-card{
+   position: absolute;
+   top: 78%;
+   left: 46%;
+   transform: translate(-50%, -50%);
+}
+
+.pokedex-card a{
+   text-decoration: none;
+   font-size: clamp(8px, 5vw, 25px);
+   color: #333;
+}
+
+.pokedex-card a:hover{
+   font-weight: bold;
+}
+
 .pokedex {
   width: 100%;
   max-width: 425px;
